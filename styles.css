@@ -4,9 +4,11 @@
 }
 
 .main {
-    width: 100;
+    width: 100%;
     background: url(Images/bg.jpg);
-    background-position: center;
+    background-position:center ;
+    background-repeat: no;
+    background-size: cover;
     height: 100vh;
     position: relative;
     font-family: sans-serif;
@@ -18,6 +20,7 @@
     margin: auto;
     padding: 15px 0;
     align-items: center;
+    justify-content: space-between;
 }
 
 .navbar .logo{
@@ -47,3 +50,42 @@ ul li a{
 }
 
 
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.info h1{
+    font-size: 65px;
+    color: red;
+}
+
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.info span{
+    color: black;
+    
+}
+
+.info a{
+    text-decoration: none;
+    color: brown;
+    background: orange;
+    margin: 26 px 0;
+    padding: 20 px 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.info a:hover{
+    background: beige;
+}
+
+.image{
+    width: 30%;
+
+}
